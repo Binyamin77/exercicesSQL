@@ -37,7 +37,7 @@
 		<type label="SET" length="1" sql="SET" quote=""/>
 		<type label="Bit" length="0" sql="bit" quote=""/>
 	</group>
-</datatypes><table x="437" y="115" name="boards">
+</datatypes><table x="494" y="404" name="boards">
 <row name="id" null="1" autoincrement="1">
 <datatype>INTEGER</datatype>
 <default>NULL</default></row>
@@ -61,7 +61,7 @@
 <part>id</part>
 </key>
 </table>
-<table x="820" y="99" name="users">
+<table x="1190" y="392" name="users">
 <row name="id" null="1" autoincrement="1">
 <datatype>INTEGER</datatype>
 <default>NULL</default></row>
@@ -77,11 +77,19 @@
 <row name="updated_at" null="1" autoincrement="0">
 <datatype>DATETIME</datatype>
 <default>NULL</default></row>
+<row name="id_tasks" null="1" autoincrement="0">
+<datatype>INTEGER</datatype>
+<default>NULL</default><relation table="tasks" row="id" />
+</row>
+<row name="id_comments" null="1" autoincrement="0">
+<datatype>INTEGER</datatype>
+<default>NULL</default><relation table="comments" row="id" />
+</row>
 <key type="PRIMARY" name="">
 <part>id</part>
 </key>
 </table>
-<table x="142" y="198" name="lists ">
+<table x="230" y="500" name="lists ">
 <row name="id" null="1" autoincrement="1">
 <datatype>INTEGER</datatype>
 <default>NULL</default></row>
@@ -101,11 +109,19 @@
 <datatype>INTEGER</datatype>
 <default>NULL</default><relation table="boards" row="id" />
 </row>
+<row name="id_tasks" null="1" autoincrement="0">
+<datatype>INTEGER</datatype>
+<default>NULL</default><relation table="tasks" row="id" />
+</row>
+<row name="id_users" null="1" autoincrement="0">
+<datatype>INTEGER</datatype>
+<default>NULL</default><relation table="users" row="id" />
+</row>
 <key type="PRIMARY" name="">
 <part>id</part>
 </key>
 </table>
-<table x="1005" y="372" name="tasks">
+<table x="455" y="50" name="tasks">
 <row name="id" null="1" autoincrement="1">
 <datatype>INTEGER</datatype>
 <default>NULL</default></row>
@@ -121,6 +137,59 @@
 <row name="updated_at" null="1" autoincrement="0">
 <datatype>DATETIME</datatype>
 <default>NULL</default></row>
+<row name="id_lists " null="1" autoincrement="0">
+<datatype>INTEGER</datatype>
+<default>NULL</default><relation table="lists " row="id" />
+</row>
+<row name="id_comments" null="1" autoincrement="0">
+<datatype>INTEGER</datatype>
+<default>NULL</default><relation table="comments" row="id" />
+</row>
+<key type="PRIMARY" name="">
+<part>id</part>
+</key>
+</table>
+<table x="640" y="310" name="comments">
+<row name="id" null="1" autoincrement="1">
+<datatype>INTEGER</datatype>
+<default>NULL</default></row>
+<row name="content" null="1" autoincrement="0">
+<datatype>CHAR</datatype>
+<default>NULL</default></row>
+<row name="created_at" null="1" autoincrement="0">
+<datatype>DATETIME</datatype>
+<default>NULL</default></row>
+<row name="updated_at" null="1" autoincrement="0">
+<datatype>DATETIME</datatype>
+<default>NULL</default></row>
+<key type="PRIMARY" name="">
+<part>id</part>
+</key>
+</table>
+<table x="927" y="90" name="attachement">
+<row name="id" null="1" autoincrement="1">
+<datatype>INTEGER</datatype>
+<default>NULL</default></row>
+<row name="name" null="1" autoincrement="0">
+<datatype>CHAR</datatype>
+<default>NULL</default></row>
+<row name="path" null="1" autoincrement="0">
+<datatype>CHAR</datatype>
+<default>NULL</default></row>
+<row name="created_at" null="1" autoincrement="0">
+<datatype>DATETIME</datatype>
+<default>NULL</default></row>
+<row name="updated_at" null="1" autoincrement="0">
+<datatype>DATETIME</datatype>
+<default>NULL</default></row>
+<row name="id_tasks" null="1" autoincrement="0">
+<datatype>INTEGER</datatype>
+<default>NULL</default><relation table="tasks" row="id" />
+</row>
+<row name="id_users" null="1" autoincrement="0">
+<datatype>INTEGER</datatype>
+<default>NULL</default><relation table="users" row="id" />
+</row>
 <key type="PRIMARY" name="">
 <part>id</part>
 </key>
