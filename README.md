@@ -5,3 +5,4 @@
 
 <h1> Exercice 2 </h1>
 <img width="710" alt="image" src="https://user-images.githubusercontent.com/85687843/204227924-b3bf181b-ae93-4434-94f8-2ba6a79b7dcf.png>
+                                 
