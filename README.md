@@ -8,4 +8,4 @@
 
 
 <h1> Exercice 3 </h1>
-<img width="727" alt="https://user-images.githubusercontent.com/85687843/204247637-5e53052d-d69f-4b63-9dcb-a843cc4eef8f.png">
+![image](https://user-images.githubusercontent.com/85687843/204248905-6db6876f-01af-4bd4-aa89-9165f312f248.png) 
