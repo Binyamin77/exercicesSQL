@@ -6,3 +6,8 @@
 <h1> Exercice 2 </h1>
 <img width="727" alt="image" src="https://user-images.githubusercontent.com/85687843/204228253-e0045522-1dbf-4270-9a47-d3da475527dc.png">                                 
 
+<h1> Exercice 3 </h1>
+
+<img width="591" alt="image" src="https://user-images.githubusercontent.com/85687843/219964787-f80890eb-cebc-48e2-b7e7-a8d11c2b1f39.png">
+
+
