@@ -13,3 +13,8 @@
 <h1> Exercice 4 </h1>
 
 ![image](https://user-images.githubusercontent.com/85687843/221869106-a7a9eb50-75af-431f-a0ae-5c31f94cfd63.png)
+
+
+<h1> Exercice 5 </h1>
+
+![image](https://user-images.githubusercontent.com/85687843/221930973-5f556c26-5f7a-43ed-b48f-f76c7414d1dd.png)
