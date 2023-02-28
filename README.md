@@ -10,4 +10,6 @@
 
 <img width="591" alt="image" src="https://user-images.githubusercontent.com/85687843/219964787-f80890eb-cebc-48e2-b7e7-a8d11c2b1f39.png">
 
+<h1> Exercice 4 </h1>
 
+![image](https://user-images.githubusercontent.com/85687843/221869106-a7a9eb50-75af-431f-a0ae-5c31f94cfd63.png)
