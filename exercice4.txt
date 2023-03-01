@@ -1,3 +1,7 @@
+4.1: cas d'utilisation : 
+
+Ajouter/Modifier/Supprimer des des enseignants, des cours, des semaines de cours.
+Planifier des horaires de cours et les emplacements de chaque cours.
 
 
 
